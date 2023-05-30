@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "spacy-referat"
+version = "0.1.0"
+description = ""
+authors = ["Christian Hagenest <mail@hagenest.dev>"]
+readme = "README.md"
+packages = [{include = "spacy_referat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+numpy = "^1.24.3"
+plotly = "^5.14.1"
+spacytextblob = "^4.0.0"
+spacyfishing = "^0.1.8"
+jupyterlab = "^4.0.0"
+spacy = "^3.5.3"
+textblob-de = "^0.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
